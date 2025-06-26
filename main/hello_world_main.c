@@ -47,6 +47,7 @@ void app_main(void)
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
     printf("Restarting now.\n");
+    printf("This is a test of the emergency broadcast system.\n");
     fflush(stdout);
     esp_restart();
 }

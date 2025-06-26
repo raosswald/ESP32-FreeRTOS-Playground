@@ -6,7 +6,7 @@
     "interface/ftdi/esp32_devkitj_v1.cfg",
     "target/esp32.cfg"
   ],
-  "idf.portWin": "COM1",
+  "idf.portWin": "COM3",
   "idf.toolsPathWin": "C:\\Users\\raoss\\.espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32"
@@ -16,5 +16,6 @@
     "--background-index",
     "--query-driver=C:\\Users\\raoss\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
     "--compile-commands-dir=${workspaceFolder}\\build"
-  ]
+  ],
+  "idf.flashType": "UART"
 }
